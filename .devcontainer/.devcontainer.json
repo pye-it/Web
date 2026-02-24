@@ -1,0 +1,9 @@
+{
+  "name": "PHP & MySQL Codespace",
+  "dockerComposeFile": [
+    "../docker-compose.yml"
+  ],
+  "service": "php",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "forwardPorts": [8000, 8080]
+}
