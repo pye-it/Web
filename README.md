@@ -20,4 +20,6 @@
   - Once logged in to the backend/admin section the user should be able to edit the content of the pages by updating the content stored in the MySQL table
   - You can use the second port that is in the codespace to view a phpmyadmin that is set up to administer the database
 - Commit your changes to your repository by clicking the tab on the left that says "Source Control" > type a commit message and press "Commit" with the green tick. If you receive a message saying: "There are no staged changes to commit.
-Would you like to stage all your changes and commit them directly?" Then click "Yes". Once this is done your repository should have updated with your latest code changes. Once you have checked that this has occured, send reply to the email that was sent to you with a link to your repository.
+Would you like to stage all your changes and commit them directly?" Then click "Yes".
+- You should then see the green button change to "Sync Changes". Click this and if presented with a message saying "This action will pull and push commits from and to "origin/main"." then click "OK.
+Once this is done your repository should have updated with your latest code changes. Once you have checked that this has occured, send reply to the email that was sent to you with a link to your repository.
