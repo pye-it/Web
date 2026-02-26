@@ -13,9 +13,12 @@
 - Test the codespace works correctly by going to the Ports tab at the bottom and you should be able to hover over port 8000 and click "Open in Browser". You should then see "hello world" appear, this means the codespace is running correctly.
 
 ## Criteria
-- Build a small session based micro site:
-- - Main website landing page. You can use www.pyemotors.co.uk for inspiration. It will need a header/navigation bar that has several menu items that dropdown when hovered over. You do not need to create each page behind the dropdown menus, please only create a link to one other page as to not spend too much time on this. (e.g if you have several hover items in the navigation menu, make them all point to the same page on the microsite.
-  - The content for the main page and other link from the navigation menu must be taken from the table in the database.
+- Build a basic small session based micro site:
+- Create a MySQL database by clicking on the Port 8080 in the Codespace and clicking "Open in Browser"
+- Create a database
+- Create a table that will hold the index page user entered content. You will be emulating the design of a Content Management System like Wordpress. The Marketing Department will be responsible for entering the page content from the backend that you create. Take the content from here: https://www.pyemotors.co.uk/about-us/
+- Main website landing page, this will be the only frontend page you need to build. It will need a header/navigation bar that has 2 menu items that dropdown when hovered over. You do not need to create each page behind the dropdown menus, please only create a link back to the main page as we don't expect you to spend too much time on this. Additional pages not required.
+  - The page content (not HTML or javascript, only user editable content) for the main page must be taken from the table in the database.
   - A login button or link that will take you to a login form. This will then check the entered username/password against a table in the database and login to the backend/admin section if successful otherwise an error message will be shown.
   - Once logged in to the backend/admin section the user should be able to edit the content of the pages by updating the content stored in the MySQL table
   - You can use the second port that is in the codespace to view a phpmyadmin that is set up to administer the database
